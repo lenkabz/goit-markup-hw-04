@@ -95,6 +95,7 @@ span {
 .auth-nav {
     display: flex;
     margin-left: auto;
+ 
 }
 
 .auth-nav .item {
@@ -116,7 +117,9 @@ span {
     color: var(--primary-text-color);
     text-decoration: none;
     
+    
 }
+
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -143,6 +146,20 @@ padding-top: 200px;
 padding-bottom: 200px;
 text-align: center;
 background-color: #2F303A;
+max-width: 1600px;
+height: 600px;
+margin-left: auto;
+margin-right: auto;
+outline: 1px solid black;
+background-image: linear-gradient ( to right, 
+rgba(47, 48, 58, 0.8)
+);
+background-image: url('../images/Juniors.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+
 }
 
 .hero-title {
@@ -156,6 +173,8 @@ background-color: #2F303A;
     letter-spacing: 0.06em;
     color: var(--additional-color);
 }
+
+
 
 .section {
  padding-top: 94px;
@@ -223,6 +242,7 @@ font-weight: 400;
 .teams {
     display: flex;
     gap: 30px;
+    
 }
 
 .team-icon {
@@ -246,6 +266,16 @@ padding-left: 5px;
 padding-right: 5px;
 }
 
+.team-list {
+    box-shadow:  
+0px, 1px 3px rgba(0, 0, 0, 0.12),
+0px, 1px 1px rgba(0, 0, 0, 0.14), 
+0px, 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
 .junior-title {
   
     font-weight: 700;
@@ -254,6 +284,7 @@ padding-right: 5px;
     text-align: center;
     color: var(--selective-color);
     margin-bottom: 50px;
+    
 }
 
 .person {
@@ -263,6 +294,7 @@ padding-right: 5px;
     line-height: 1.2;
     color: var(--selective-color);
     margin-bottom: 10px;
+    
 }
 
 
@@ -272,6 +304,7 @@ padding-right: 5px;
     font-size: 16px;
     line-height: 1.2;
     color: var(--primary-text-color);
+    
 }
 
 .footer {
@@ -335,6 +368,16 @@ span {
     color : var(--button-color);
     background-color: var(--button-bg-color);
 }
+
+.button::before {
+    content: "9";
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    background-image: url(../images/nomber2.jpg);
+    background-size: contain;
+    
+    }
 
       /* Портфолио */
 
