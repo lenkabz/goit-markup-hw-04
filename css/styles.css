@@ -83,6 +83,8 @@ span {
     
 }
 
+
+
 .site-nav .link:hover,
 .site-nav .link:focus {
     color:var(--accent-color);
@@ -190,9 +192,58 @@ display: flex;
 gap: 30px;
 }
 
-.feature-list .item {
+.feature-list .list-item {
     width: 270px;
 }
+
+.antena-item::before {
+    display: block;
+    content: '';
+    height: 120px;
+
+    background-image: url(../images/antenna\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.clock-item::before {
+    display: block;
+    content: '';
+    height: 120px;
+   
+    background-image: url(../images/clock\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.diagram-item::before {
+    display: block;
+    content: '';
+    height: 120px;
+    
+    background-image: url(../images/diagram\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.astronaut-item::before {
+    display: block;
+    content: '';
+    height: 120px;
+
+    background-image: url(../images/astronaut\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
 
 .feature-text {
     line-height: 1.71;
@@ -263,7 +314,19 @@ border-radius: 0px 0px 4px 4px;
 padding-top: 30px;
 padding-bottom: 30px;
 padding-left: 5px;
-padding-right: 5px;
+padding-right: 5px; 
+}
+
+.profession::after {
+    content: '';
+    display: block;
+   
+    
+background-image: url(../images/Ellipse.svg);
+background-image: url(../images/Twitter\ 1.svg);
+background-image: url(../images/facebook\ 1.svg);
+background-image: url(../images/linkedin\ 1.svg);
+background-repeat: no-repeat;
 }
 
 .team-list {
@@ -273,7 +336,6 @@ padding-right: 5px;
 0px, 2px 1px rgba(0, 0, 0, 0.2);
 
 }
-
 
 
 .junior-title {
@@ -368,16 +430,6 @@ span {
     color : var(--button-color);
     background-color: var(--button-bg-color);
 }
-
-.button::before {
-    content: "9";
-    width: 20px;
-    height: 20px;
-    background-color: red;
-    background-image: url(../images/nomber2.jpg);
-    background-size: contain;
-    
-    }
 
       /* Портфолио */
 
