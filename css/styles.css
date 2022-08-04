@@ -119,8 +119,33 @@ span {
     color: var(--primary-text-color);
     text-decoration: none;
     
-    
 }
+
+.contacts-nav .link {
+ display: flex;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.1;
+ letter-spacing: 0.02em;
+ text-decoration: none;
+ color: var(--primary-text-color);
+
+}
+
+
+.item .figure {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--primary-text-color);
+   
+}
+
+
 
 
 .auth-nav .link:hover,
