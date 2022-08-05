@@ -118,22 +118,14 @@ span {
     line-height: 1.14;
     color: var(--primary-text-color);
     text-decoration: none;
-    
 }
 
-.contacts-nav .link {
- display: flex;
- font-weight: 500;
- font-size: 14px;
- line-height: 1.1;
- letter-spacing: 0.02em;
- text-decoration: none;
- color: var(--primary-text-color);
-
+.contacts-nav-link {
+    padding: 32px 0;
 }
 
 
-.item .figure {
+.item-figure {
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -145,8 +137,18 @@ span {
    
 }
 
+.contact-icon {
+    align-items: center;
+    margin-right: 10px;
+    fill: #757575;
+}
 
 
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+    color: var(--accent-color);
+}
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -342,17 +344,7 @@ padding-left: 5px;
 padding-right: 5px; 
 }
 
-.profession::after {
-    content: '';
-    display: block;
-   
-    
-background-image: url(../images/Ellipse.svg);
-background-image: url(../images/Twitter\ 1.svg);
-background-image: url(../images/facebook\ 1.svg);
-background-image: url(../images/linkedin\ 1.svg);
-background-repeat: no-repeat;
-}
+
 
 .team-list {
     box-shadow:  
@@ -428,6 +420,59 @@ background-color: #2196F3;
     fill: #ffffff;
 }
 
+.clients-list {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--selective-color);
+    margin-bottom: 50px;
+    
+}
+
+.list .clients-list {
+display: flex;
+gap: 30px;
+}
+
+    
+
+.clients {
+ background-color: #fff;
+ 
+}
+
+.clients-item {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    
+    
+    
+}
+
+.clients-icon {
+    fill: #AFB1B8;
+    
+    width: 106px;
+    height: 60px;
+    
+    
+}
+
+.clients-item:hover,
+.clients-item:focus {
+    border: 1px solid var(--button-bg-color);
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+    fill: var(--accent-color);
+}
 
 /*-- Footer --*/
 
@@ -474,6 +519,55 @@ span {
 .separator li:not(:last-child) {
     margin-bottom: 9px;
 }
+
+.footer-title {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+ color: var(--additional-color);
+
+}
+
+.contacts-container {
+    display: flex;
+}
+
+
+.footer-social-list {
+    flex: baseline;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    
+}
+
+.footer-social-link {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: var(--additional-color);
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+.footer-social-link:hover,
+.footer-social-link:focus{
+    background-color: var(--accent-color);
+}
+
+.footer-social-link:hover .socials-icon {
+    fill: #ffffff;
+}
+
 
 /* Button */
 
