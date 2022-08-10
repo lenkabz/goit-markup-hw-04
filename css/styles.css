@@ -353,17 +353,9 @@ background-color: var(--additional-color);
 border-radius: 0px 0px 4px 4px;
 padding-top: 30px;
 padding-bottom: 30px;
-padding-left: 5px;
-padding-right: 5px; 
-}
-
-
-
-.team-list {
-    box-shadow:  
-0px, 1px 3px rgba(0, 0, 0, 0.12),
-0px, 1px 1px rgba(0, 0, 0, 0.14), 
-0px, 2px 1px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14), 
+0px 2px 1px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -591,6 +583,9 @@ span {
 
 .footer-social-link:hover .socials-icon {
     fill: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14), 
+0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -635,6 +630,9 @@ span {
 .button-portfolio:focus {
     color: var(--additional-color);
     background-color: var(--accent-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14), 
+0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .tack {
@@ -674,5 +672,12 @@ span {
     font-size: 16px;
     line-height: 1.9; 
     color: var(--primary-text-color);
+}
+
+.line-wrap:hover,
+.line-wrap:focus {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14), 
+0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
